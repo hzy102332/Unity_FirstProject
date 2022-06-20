@@ -99,14 +99,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4182a11f209cef4498d1f2aa1075a80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 4
   tank_sprite:
   - {fileID: 983981922, guid: 8b884eb2aef9b4d4ba2289edbdef43dc, type: 3}
   - {fileID: 1670510869, guid: 8b884eb2aef9b4d4ba2289edbdef43dc, type: 3}
   - {fileID: 946172048, guid: 8b884eb2aef9b4d4ba2289edbdef43dc, type: 3}
   - {fileID: -1429258403, guid: 8b884eb2aef9b4d4ba2289edbdef43dc, type: 3}
   bullet: {fileID: 2777044103670103152, guid: 67df831e5418cda42b8e5e5c4e3c3d9e, type: 3}
-  shootcd: 0.5
+  shootcd: 2
   explode: {fileID: 210920123139414938, guid: dd07d364a8aed1342a0e5db503566ef3, type: 3}
   Bonr_enemy: {fileID: 4792850896569359243, guid: 68acbdc27be1a0a488a049f7ce555455, type: 3}
 --- !u!61 &8751138216875030425

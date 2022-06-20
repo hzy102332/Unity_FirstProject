@@ -15,7 +15,7 @@ E:/Unity/Project/tank
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52883
+57658
 Successfully changed project path to: E:/Unity/Project/tank
 E:/Unity/Project/tank
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ E:/Unity/Project/tank
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 108.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 104.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1c1 (7216c3a06de6)
 [Subsystems] Discovering subsystems at path E:/Unity/Unity 2021.2.3f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,42 +64,425 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Unity 2021.2.3f1c1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Unity 2021.2.3f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Unity 2021.2.3f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Unity 2021.2.3f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004672 seconds.
+Registered in 0.003197 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 97.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
+- Completed reload, in  0.720 seconds
 Domain Reload Profiling:
-	ReloadAssembly (746ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (312ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.024810 seconds.
+Registered in 0.018157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1859ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1546ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1041ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (782ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3921 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (56.1 KB). Loaded Objects now: 4380.
+Memory consumption went from 152.0 MB to 151.9 MB.
+Total: 4.356700 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.189200 ms MarkObjects: 3.770400 ms  DeleteObjects: 0.074300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158708.185386 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab
+  artifactKey: Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab using Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36b43078f826813f8be282b7dc2419a') in 0.144106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_player.prefab
+  artifactKey: Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_player.prefab using Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c810ab6753c39e345fa55629733ea2') in 0.032819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.721978 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab
+  artifactKey: Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab using Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d3887bc2d852a2c2445b0c9a3386e') in 0.027419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab
+  artifactKey: Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab using Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eed76ee65ad186fe2604a3cea09da5c') in 0.030496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab
+  artifactKey: Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab using Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f3488c67c7a3ea084dbf73452a3b54') in 0.032139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.448139 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab
+  artifactKey: Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab using Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8509da935f99ffb2475647ba19cadc88') in 0.029554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab
+  artifactKey: Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab using Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcc066b3a4f7da64b036b0b4c32305a') in 0.033969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab
+  artifactKey: Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab using Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7345321c59d8de29c70eb4d78f7a85') in 0.030518 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1004ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4388.
+Memory consumption went from 154.7 MB to 154.7 MB.
+Total: 5.718600 ms (FindLiveObjects: 0.667500 ms CreateObjectMapping: 0.697600 ms MarkObjects: 4.211200 ms  DeleteObjects: 0.137700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017411 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2003ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1555ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (719ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (511ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (25.7 KB). Loaded Objects now: 4390.
+Memory consumption went from 154.8 MB to 154.7 MB.
+Total: 7.237400 ms (FindLiveObjects: 0.719700 ms CreateObjectMapping: 0.730800 ms MarkObjects: 5.754900 ms  DeleteObjects: 0.030500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4290.438064 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ee87a2f0a7f97a78a30ef493ef272f') in 1.492043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab
+  artifactKey: Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab using Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d469e67aaeb0d03ae2df156ac8cb33f') in 0.031029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab
+  artifactKey: Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab using Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e85456b9eef1ded10d66b689d87d47b') in 0.027608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab
+  artifactKey: Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab using Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e00416313edd6ae03e5fb969cf0f36') in 0.025265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_player.prefab
+  artifactKey: Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_player.prefab using Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628af6be4010d26bcd9cae9471fafe85') in 0.025995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.978785 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbedbcba6356fe2e4441dc74e292e281') in 0.038125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab
+  artifactKey: Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab using Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a8f92f2dd048a88e1fefaecfc921cd') in 0.026122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab
+  artifactKey: Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab using Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b605b05b8fd8ae9e67e6d2d3d6626440') in 0.026639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Player.prefab
+  artifactKey: Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Player.prefab using Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18384a364ad6e87272769f49fd19f6bf') in 0.026146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.747827 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f7d217ecaae2a40a43e9e7638e72df') in 0.024348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab
+  artifactKey: Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab using Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086d9f6cc884406962375f816e5fbb2c') in 0.022848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab
+  artifactKey: Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab using Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3092ae7499853c6f53f1fbf3106909cc') in 0.026311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab
+  artifactKey: Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab using Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf432a6861a10f82f3aeb1fb30540a4') in 0.024353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_player.prefab
+  artifactKey: Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_player.prefab using Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ad1754ec73b4524c17f641ad08aef0') in 0.025750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.753901 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5adbe2ff29cf6b9448654533baa663') in 0.031895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab
+  artifactKey: Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab using Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acdb0cdfb276f869902fc70bf5b96ee') in 0.036346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab
+  artifactKey: Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab using Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81df49657a80a7e4927f06824551541f') in 0.032218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Player.prefab
+  artifactKey: Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Player.prefab using Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4f26cf09631ee9f8dda2b953ce4398') in 0.023025 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017873 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2131ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1639ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4392.
+Memory consumption went from 154.8 MB to 154.8 MB.
+Total: 5.606300 ms (FindLiveObjects: 0.797000 ms CreateObjectMapping: 0.441000 ms MarkObjects: 4.290700 ms  DeleteObjects: 0.075200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

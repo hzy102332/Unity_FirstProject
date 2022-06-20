@@ -8,12 +8,8 @@ public class Base : MonoBehaviour
     public Sprite broken;
     public GameObject explodeprefab;
     public float hp = 2;
-    public float enemynum = 3;
     public GameObject Gameover;
     
-    private void kill(){
-        enemynum -= 1;
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +20,11 @@ public class Base : MonoBehaviour
     {
         hp -= 1;
     }
-    
+
+    private void Recover()
+    {
+        hp = 2;
+    }
     private void DelayFunc(){
          sr.sprite = broken;
          Time.timeScale = 0;

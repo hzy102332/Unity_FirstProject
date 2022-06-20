@@ -18,13 +18,8 @@ public class Player : MonoBehaviour
     public bool isDefended = true;
     public GameObject sheild;
     public GameObject Born_player;
-    
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    // private float v = 0, h = 0;
 
     private void Awake() {
         sr = GetComponent<SpriteRenderer>();    
@@ -34,7 +29,8 @@ public class Player : MonoBehaviour
     void Update()
     {    
         Movement();
-    // if is defended
+        
+        // if is defended
         if (isDefended){
             sheild.SetActive(true);
             defendedTime -= Time.deltaTime;
@@ -56,13 +52,7 @@ public class Player : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
         transform.Translate(Vector3.up*v*speed*Time.deltaTime, Space.World);
         //按下左键h是-1 
-        float h = Input.GetAxisRaw("Horizontal");
-        transform.Translate(Vector3.right*h*speed*Time.deltaTime, Space.World);
-
-        if (h == 0 && v == 0){}
-            // Sound.instance.Idle();
-        else
-            Sound.instance.Move();
+       
         //向下
         if(v<0){
             sr.sprite = tank_sprite[2];
@@ -76,7 +66,9 @@ public class Player : MonoBehaviour
         if (v != 0){
             return;
         }
-
+       float h = Input.GetAxisRaw("Horizontal");
+       transform.Translate(Vector3.right*h*speed*Time.deltaTime, Space.World);
+          
         if(h<0){
             sr.sprite = tank_sprite[3];
             bullectEulerAngles = new Vector3(0,0,90);

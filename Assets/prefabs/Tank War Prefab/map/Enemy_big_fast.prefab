@@ -106,7 +106,7 @@ MonoBehaviour:
   - {fileID: 1041583811, guid: fc892252402a25f42b0b84a8f0661374, type: 3}
   - {fileID: 737778787, guid: fc892252402a25f42b0b84a8f0661374, type: 3}
   bullet: {fileID: 2777044103670103152, guid: 67df831e5418cda42b8e5e5c4e3c3d9e, type: 3}
-  shootcd: 0.5
+  shootcd: 2
   explode: {fileID: 210920123139414938, guid: dd07d364a8aed1342a0e5db503566ef3, type: 3}
   Bonr_enemy: {fileID: 4792850896569359243, guid: 68acbdc27be1a0a488a049f7ce555455, type: 3}
 --- !u!61 &2143816596860503628

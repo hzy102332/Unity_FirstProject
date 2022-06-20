@@ -29,10 +29,8 @@ public class Bullet : MonoBehaviour
                     other.SendMessage("Die"); 
                     Destroy(gameObject);
                     FindObjectOfType<Base>().SendMessage("kill");
-                    if (FindObjectOfType<Base>().enemynum >= 0)
-                    {
-                        FindObjectOfType<Grid>().SendMessage("createenemy");
-                    }
+                    FindObjectOfType<GameControl>().SendMessage("Getpoint");
+                    FindObjectOfType<CreatMap>().SendMessage("createenemy");
                 } 
                 break;
             case "base":

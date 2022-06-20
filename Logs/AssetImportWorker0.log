@@ -15,7 +15,7 @@ E:/Unity/Project/tank
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52883
+57658
 Successfully changed project path to: E:/Unity/Project/tank
 E:/Unity/Project/tank
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ E:/Unity/Project/tank
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 136.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 105.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1c1 (7216c3a06de6)
 [Subsystems] Discovering subsystems at path E:/Unity/Unity 2021.2.3f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,42 +64,239 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Unity 2021.2.3f1c1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Unity 2021.2.3f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Unity 2021.2.3f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Unity 2021.2.3f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.056348 seconds.
+Registered in 0.003216 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 161.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 105.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  0.686 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1543ms)
-		BeginReloadAssembly (648ms)
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (748ms)
-			LoadAssemblies (640ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (422ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (161ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020709 seconds.
+Registered in 0.019170 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Project\tank\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2018ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1694ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (848ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3921 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (56.1 KB). Loaded Objects now: 4380.
+Memory consumption went from 152.0 MB to 151.9 MB.
+Total: 3.751100 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.279600 ms MarkObjects: 2.981900 ms  DeleteObjects: 0.085800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158629.502644 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab
+  artifactKey: Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab using Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abfb4eb7d552a166525eb6752b182a1') in 0.200934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f865fb167141823f35614acd85ae10a') in 0.027893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab
+  artifactKey: Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab using Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b6b107fddee46f29d423e61cbab9c1') in 0.039100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Player.prefab
+  artifactKey: Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Player.prefab using Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a6b6a9158e63db3dab78d7cfee423e') in 0.029941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Canvas.prefab
+  artifactKey: Guid(6248eb089c7bb69478c74e286c1aa2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Canvas.prefab using Guid(6248eb089c7bb69478c74e286c1aa2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c4997b153f0ac91fd0907c6c27713') in 0.128167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.233553 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f4e27b3b06e5329f505399aad361e9') in 0.036753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab
+  artifactKey: Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab using Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b578078d94e99bd72ba87c16acecdd') in 0.026938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab
+  artifactKey: Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab using Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02d2730a69660e3e1309d5a78ae1359') in 0.023267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Player.prefab
+  artifactKey: Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Player.prefab using Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff48aa69363cddcd8c4ff4fb6f07aed') in 0.033101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.608168 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522c933e6f660db17f6bee7c1d185d51') in 0.039597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab
+  artifactKey: Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab using Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4a11d386fc0d75fb2076e89a7e0b52') in 0.020065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab
+  artifactKey: Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_enemy.prefab using Guid(67df831e5418cda42b8e5e5c4e3c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716f3c600e8330763aa8ee700aba891e') in 0.021769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab
+  artifactKey: Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab using Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70c54938dbad92ac8e1954dc87e3332') in 0.034736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/bullet_player.prefab
+  artifactKey: Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/bullet_player.prefab using Guid(84f3d742a07ef7e4c970f7a8bf1950cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f608e83f4ee88ca54a357944d7fb58cc') in 0.029607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.485897 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9577b1f80f82fc8e97211d31301d97ba') in 0.034125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab
+  artifactKey: Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_slow.prefab using Guid(6789d8df498cf11458e71ec345a67cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a881c6f9dc2cedf85b9e5201d8e7dd99') in 0.024457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab
+  artifactKey: Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_fast.prefab using Guid(2361ea7c442afde4b9061f27f2e9be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70e00eeefccef02514cb3af72125a92') in 0.029024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.774280 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2f2dc158d223236f2c301fcc32a8ee') in 0.039101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab
+  artifactKey: Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_big_fast.prefab using Guid(7e4b9cc70fe5bd842b732a0c7a31da15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5da824e4f8a7e4995524daec7a3aa8') in 0.029456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Player.prefab
+  artifactKey: Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Player.prefab using Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa749e65536b0ba868432affc302d901') in 0.034044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.447413 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Born_player.prefab
+  artifactKey: Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Born_player.prefab using Guid(aa1a002a03874614b92cbf2eee466db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5f6a3a09660cbbfeb6ac1d8368da9') in 0.030029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab
+  artifactKey: Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Enemy_slow.prefab using Guid(ce80f06e0a0b2cf4f9719f4b8ebe4855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2c117e5ffff8896cb7f23ec990a11d') in 0.034304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Tank War Prefab/map/Player.prefab
+  artifactKey: Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Tank War Prefab/map/Player.prefab using Guid(03fd65be88069d740a0ada69b177a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f691564321d2ad959c9ee22aa54a96ff') in 0.030416 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

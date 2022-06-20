@@ -23,6 +23,11 @@ public class UI_Show : MonoBehaviour
             Gameover.SetActive(true);
             hp3.SetActive(false);
             // Time.timeScale = 0f;
+        }else if (hpnum == 2)
+        {
+            hp1.SetActive(true);
+            hp2.SetActive(true);
+            hp3.SetActive(true);
         }
     }
 
@@ -34,6 +39,7 @@ public class UI_Show : MonoBehaviour
     }
     public void Restart()
     { 
+        GameObject.Find("backgroud").GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
         Gameover.SetActive(false); 
         SceneManager.LoadScene("map1");
@@ -41,6 +47,7 @@ public class UI_Show : MonoBehaviour
 
     private void Over()
     {
+        GameObject.Find("backgroud").GetComponent<AudioSource>().Stop();
         Gameover.SetActive(true);
     }
 }
