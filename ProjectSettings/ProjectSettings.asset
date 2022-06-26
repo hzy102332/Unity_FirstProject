@@ -19,19 +19,19 @@ PlayerSettings:
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
-  m_SplashScreenOverlayOpacity: 1
+  m_SplashScreenOverlayOpacity: 0
   m_SplashScreenAnimation: 2
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
-  m_SplashScreenBackgroundAnimationZoom: 0.995
-  m_SplashScreenLogoAnimationZoom: 1
+  m_SplashScreenBackgroundAnimationZoom: 1
+  m_SplashScreenLogoAnimationZoom: 0.996
   m_SplashScreenBackgroundLandscapeAspect: 1
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.99999994
+    width: 1
     height: 1
   m_SplashScreenBackgroundPortraitUvs:
     serializedVersion: 2
@@ -39,16 +39,8 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: d532de5e6df7ce948a5f9d07897aa865, type: 3}
-    duration: 2
-  - logo: {fileID: 207844315, guid: fc892252402a25f42b0b84a8f0661374, type: 3}
-    duration: 2
-  - logo: {fileID: 755282485, guid: 8b884eb2aef9b4d4ba2289edbdef43dc, type: 3}
-    duration: 2
-  - logo: {fileID: -847909740, guid: 2a970a770ce681d4ea94a8e3d2841fce, type: 3}
-    duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 476bd825b3b97f24ea036630861f00df, type: 3}
+  m_SplashScreenLogos: []
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: fbd64fb3bedf9ce429868ff690b85808, type: 3}
   m_ShowUnitySplashAds: 0
   m_AdsAndroidGameId: 
   m_AdsIosGameId: 
@@ -56,8 +48,8 @@ PlayerSettings:
   m_SloganImage: {fileID: 0}
   m_SloganHeight: 150
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 600
+  defaultScreenHeight: 800
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -118,7 +110,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -290,7 +282,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 476bd825b3b97f24ea036630861f00df, type: 3}
+      m_Icon: {fileID: 2800000, guid: a2fabd66e3a28a54293e1b5a4a2cef1e, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -573,9 +565,9 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 476bd825b3b97f24ea036630861f00df, type: 3}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: fbd64fb3bedf9ce429868ff690b85808, type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
-  blurSplashScreenBackground: 1
+  blurSplashScreenBackground: 0
   spritePackerPolicy: 
   webGLMemorySize: 32
   webGLExceptionSupport: 1

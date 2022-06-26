@@ -12,6 +12,7 @@ TagManager:
   - base
   - backgroud
   - area
+  - platform
   layers:
   - Default
   - TransparentFX
