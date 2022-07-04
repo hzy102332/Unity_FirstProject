@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBirds/ModeSelect.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -78,6 +81,19 @@
       <workItem from="1656146744454" duration="5102000" />
       <workItem from="1656237670242" duration="12009000" />
       <workItem from="1656255106692" duration="690000" />
+      <workItem from="1656332254213" duration="186000" />
+      <workItem from="1656492712846" duration="5758000" />
+      <workItem from="1656583388281" duration="6118000" />
+      <workItem from="1656599277800" duration="7664000" />
+      <workItem from="1656667130264" duration="1253000" />
+      <workItem from="1656672185269" duration="3643000" />
+      <workItem from="1656744774231" duration="13880000" />
+      <workItem from="1656776645807" duration="5629000" />
+      <workItem from="1656831880406" duration="1869000" />
+      <workItem from="1656835834385" duration="1074000" />
+      <workItem from="1656837580799" duration="106000" />
+      <workItem from="1656866514250" duration="1751000" />
+      <workItem from="1656868949983" duration="66000" />
     </task>
     <servers />
   </component>

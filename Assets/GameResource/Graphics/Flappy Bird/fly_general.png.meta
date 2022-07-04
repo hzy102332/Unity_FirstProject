@@ -167,48 +167,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fly_general_3
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 44
-        width: 40
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fb24b17b25489346ae36e75df0fbc9d
-      internalID: 776171520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_general_4
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 28
-        width: 40
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3c852d755cd159468ef4f0b547ff95e
-      internalID: -534546600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: fly_general_5
       rect:
         serializedVersion: 2
@@ -313,6 +271,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: fly_general_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 179
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c36a4298d24cf3419fdd458ca2cb52a
+      internalID: 125808466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_general_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 153
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0369773080210438f333f9cb51c1d5
+      internalID: -2134636866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_general_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c777063337b7db499153f925eb93e3d
+      internalID: -1059444552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_general_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 171
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e773e53c77807534ca781b551fe3f182
+      internalID: 701900364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_general_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 121
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a5760696f2ef741ac01515ce2eb783
+      internalID: -322293008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -325,14 +388,19 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       fly_general_7: -1311497263
+      fly_general_14: -322293008
       fly_general_2: 349720326
+      fly_general_12: -1059444552
       fly_general_5: -180391805
+      fly_general_10: 125808466
       fly_general_4: -534546600
       fly_general_1: 273881015
       fly_general_0: 453984608
       fly_general_8: -883547284
       fly_general_3: 776171520
+      fly_general_11: -2134636866
       fly_general_6: -1402502165
+      fly_general_13: 701900364
       fly_general_9: 1662183748
   spritePackingTag: 
   pSDRemoveMatte: 0

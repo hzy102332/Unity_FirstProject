@@ -11,8 +11,8 @@ public class startgame : MonoBehaviour
         SceneManager.LoadScene("map1");
     }
 
-    public void QuitGame() 
+    public void QuitGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Home");
     }
 }

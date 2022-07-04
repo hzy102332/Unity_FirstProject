@@ -15,7 +15,6 @@ public class Sound : MonoBehaviour
         instance = this;
     }
     
-
     public void Fire()
     {
         audioSource.clip = fire;

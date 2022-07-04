@@ -191,12 +191,12 @@ TextureImporter:
       name: ver2_fly2_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 82
-        width: 3
-        height: 6
+        x: 0
+        y: 34
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -338,10 +338,10 @@ TextureImporter:
       name: ver2_fly2_11
       rect:
         serializedVersion: 2
-        x: 40
-        y: 53
-        width: 15
-        height: 20
+        x: 42
+        y: 54
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,9 +360,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 52
-        width: 10
-        height: 21
+        y: 54
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,7 +448,7 @@ TextureImporter:
         width: 21
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -469,7 +469,7 @@ TextureImporter:
         width: 21
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -490,7 +490,7 @@ TextureImporter:
         width: 11
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,7 +511,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,6 +519,27 @@ TextureImporter:
       bones: []
       spriteID: eb4cb4a3b298ac94582e70c4c4524f1d
       internalID: -351764880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ver2_fly2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b9f6ee163ad8c41b753b033b61ca51
+      internalID: 340425563
       vertices: []
       indices: 
       edges: []
@@ -551,6 +572,7 @@ TextureImporter:
       ver2_fly2_4: -1709653776
       ver2_fly2_15: -910707802
       ver2_fly2_12: 1292876082
+      ver2_fly2_20: 340425563
       ver2_fly2_9: -658304764
       ver2_fly2_16: 1661483478
       ver2_fly2_18: 545746153

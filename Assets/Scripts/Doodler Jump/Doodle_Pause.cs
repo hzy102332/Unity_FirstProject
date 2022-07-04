@@ -8,7 +8,6 @@ using UnityEngine.Audio;
 public class Doodle_Pause : MonoBehaviour
 {
     public GameObject pausemenu;
-    public string home_name = "Home";
     public AudioMixer Aduiomixer;
     public GameObject gameover;
     
@@ -29,16 +28,10 @@ public class Doodle_Pause : MonoBehaviour
     public void Home()
     {
         pausemenu.SetActive(false);
-        SceneManager.LoadScene(home_name);
+        SceneManager.LoadScene("Home");
         Time.timeScale = 1f;
     }
-
-    public void Overtohome()
-    {
-        gameover.SetActive(false);
-        SceneManager.LoadScene(home_name);
-        Time.timeScale = 1f;
-    }
+    
     
     public void ReplayGame()
     {
