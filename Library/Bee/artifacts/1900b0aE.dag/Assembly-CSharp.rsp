@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -320,6 +321,8 @@
 -r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"D:/Program App/Unity/Git/Unity_FirstProject/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
 -r:"D:/Program App/Unity/Git/Unity_FirstProject/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
 -r:"D:/Program App/Unity/Git/Unity_FirstProject/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
@@ -354,6 +357,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
@@ -371,8 +376,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Cuphead.cs"
+"Assets/CurveController.cs"
+"Assets/Fallchcek.cs"
+"Assets/GameResource/Graphics/RiderCar/BezierCurveLines/Scripts/BezierCurveCollider2D.cs"
 "Assets/HomeMenu.cs"
 "Assets/Scripts/Doodler Jump/DoodlerControl.cs"
+"Assets/Scripts/Doodler Jump/Doodler_Sound.cs"
 "Assets/Scripts/Doodler Jump/Doodle_Pause.cs"
 "Assets/Scripts/Doodler Jump/GameManger.cs"
 "Assets/Scripts/Doodler Jump/Gameover.cs"
@@ -389,6 +399,11 @@
 "Assets/Scripts/FlappyBirds/move.cs"
 "Assets/Scripts/FlappyBirds/Score.cs"
 "Assets/Scripts/FlappyBirds/SoundManager.cs"
+"Assets/Scripts/Rider/HItCheck.cs"
+"Assets/Scripts/Rider/RiderControlert.cs"
+"Assets/Scripts/Rider/RiderMenus.cs"
+"Assets/Scripts/Rider/RiderSound.cs"
+"Assets/Scripts/Rider/Win.cs"
 "Assets/Scripts/Tank War Scripts/Base.cs"
 "Assets/Scripts/Tank War Scripts/Born.cs"
 "Assets/Scripts/Tank War Scripts/Bullet.cs"

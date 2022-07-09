@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Home
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ec6ee3581a015b441b305ffee378c536, type: 2}
-  m_sharedMaterial: {fileID: 77352939244521493, guid: ec6ee3581a015b441b305ffee378c536, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fae145f71d9849c4bab8f88fe46754ec, type: 2}
+  m_sharedMaterial: {fileID: -9110757031818918078, guid: fae145f71d9849c4bab8f88fe46754ec, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -172,8 +172,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -130, y: 190}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: -116, y: 43}
+  m_SizeDelta: {x: 190, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8345644035684054165
 CanvasRenderer:
@@ -258,8 +258,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UI_Show, Assembly-CSharp
-        m_MethodName: Restart
+        m_TargetAssemblyTypeName: Doodle_Pause, Assembly-CSharp
+        m_MethodName: ReplayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -335,17 +335,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Restart
+  m_text: Replay
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ec6ee3581a015b441b305ffee378c536, type: 2}
-  m_sharedMaterial: {fileID: 77352939244521493, guid: ec6ee3581a015b441b305ffee378c536, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fae145f71d9849c4bab8f88fe46754ec, type: 2}
+  m_sharedMaterial: {fileID: -9110757031818918078, guid: fae145f71d9849c4bab8f88fe46754ec, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280032285
-  m_fontColor: {r: 0.11320752, g: 0.10840154, b: 0.10840154, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -362,13 +362,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 33
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -421,7 +421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8345644036298623125
 RectTransform:
   m_ObjectHideFlags: 0
@@ -465,14 +465,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6320754, g: 0.1910541, b: 0.13416697, a: 0.9137255}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 254c67df951808c4e8d95fce9cccdf71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 948133704c6615f48b59184749f545e6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -519,8 +519,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 130, y: 190}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: 119, y: 43}
+  m_SizeDelta: {x: 190, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8345644037343177182
 CanvasRenderer:
@@ -605,7 +605,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UI_Show, Assembly-CSharp
+        m_TargetAssemblyTypeName: Doodle_Pause, Assembly-CSharp
         m_MethodName: Home
         m_Mode: 1
         m_Arguments:

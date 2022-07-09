@@ -37,6 +37,7 @@ public class GameManger : MonoBehaviour
     {
         int normal = 30;
         int weak = 15;
+        int explode = 10;
 
         for (int i = 0; i < normal; i++)
         {
@@ -47,6 +48,11 @@ public class GameManger : MonoBehaviour
         for (int i = 0; i < weak; i++)
         {
             GameObject plateform = Instantiate(plateformprefab[1], plateformPool);
+            plateform.SetActive(false);
+        }
+        for (int i = 0; i < explode; i++)
+        {
+            GameObject plateform = Instantiate(plateformprefab[2], plateformPool);
             plateform.SetActive(false);
         }
     }

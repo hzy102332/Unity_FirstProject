@@ -9,9 +9,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBirds/ModeSelect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rider/HItCheck.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2B1bHV7txqc4tMKql4ImpIpeyeU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,6 +98,12 @@
       <workItem from="1656837580799" duration="106000" />
       <workItem from="1656866514250" duration="1751000" />
       <workItem from="1656868949983" duration="66000" />
+      <workItem from="1657009186973" duration="8494000" />
+      <workItem from="1657091090023" duration="6124000" />
+      <workItem from="1657099163291" duration="3362000" />
+      <workItem from="1657182984431" duration="2011000" />
+      <workItem from="1657187898880" duration="148000" />
+      <workItem from="1657188256154" duration="421000" />
     </task>
     <servers />
   </component>

@@ -103,6 +103,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/Program App/Unity/2021.2.3f1c1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
@@ -311,14 +312,20 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Cuphead.cs"
+"Assets/CurveController.cs"
+"Assets/Fallchcek.cs"
+"Assets/GameResource/Graphics/RiderCar/BezierCurveLines/Scripts/BezierCurveCollider2D.cs"
 "Assets/HomeMenu.cs"
 "Assets/Scripts/Doodler Jump/DoodlerControl.cs"
+"Assets/Scripts/Doodler Jump/Doodler_Sound.cs"
 "Assets/Scripts/Doodler Jump/Doodle_Pause.cs"
 "Assets/Scripts/Doodler Jump/GameManger.cs"
 "Assets/Scripts/Doodler Jump/Gameover.cs"
@@ -335,6 +342,11 @@
 "Assets/Scripts/FlappyBirds/move.cs"
 "Assets/Scripts/FlappyBirds/Score.cs"
 "Assets/Scripts/FlappyBirds/SoundManager.cs"
+"Assets/Scripts/Rider/HItCheck.cs"
+"Assets/Scripts/Rider/RiderControlert.cs"
+"Assets/Scripts/Rider/RiderMenus.cs"
+"Assets/Scripts/Rider/RiderSound.cs"
+"Assets/Scripts/Rider/Win.cs"
 "Assets/Scripts/Tank War Scripts/Base.cs"
 "Assets/Scripts/Tank War Scripts/Born.cs"
 "Assets/Scripts/Tank War Scripts/Bullet.cs"

@@ -11,6 +11,7 @@ public class Gameover : MonoBehaviour
         if (col.tag == "Player")
         {
             Destroy(col.gameObject);
+            Doodler_Sound.instance.Fall();
             Gamover.SetActive(true);
             Time.timeScale = 0f; 
         }

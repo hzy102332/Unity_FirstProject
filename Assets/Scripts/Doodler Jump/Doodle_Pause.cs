@@ -15,14 +15,12 @@ public class Doodle_Pause : MonoBehaviour
     public void PauseGame()
     {
         pausemenu.SetActive(true);
-        Time.timeScale = 0f; 
-        // GameObject.Find("backgroud").GetComponent<AudioSource>().Stop();
+        Time.timeScale = 0f;
     }
 
     public void BackGame()
     {
         pausemenu.SetActive(false);
-        // GameObject.Find("backgroud").GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
     }
     public void Home()
@@ -31,7 +29,11 @@ public class Doodle_Pause : MonoBehaviour
         SceneManager.LoadScene("Home");
         Time.timeScale = 1f;
     }
-    
+
+    public void GameOver()
+    {
+        gameover.SetActive(true);
+    }
     
     public void ReplayGame()
     {

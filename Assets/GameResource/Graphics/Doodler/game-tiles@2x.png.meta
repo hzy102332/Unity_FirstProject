@@ -250,6 +250,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: game-tiles@2x_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 124
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45945945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40688b54313a9d4fbbba45b86857f9a
+      internalID: -395548532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-tiles@2x_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 124
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9176ff7e6e2bb4f8e15c72e36dfaa5
+      internalID: -1054658427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-tiles@2x_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326
+        width: 124
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.64912283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b536b62ec2b184693bd0ebb517d7c3
+      internalID: 2021300994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -261,10 +324,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      game-tiles@2x_9: 2021300994
       game-tiles@2x_4: 689522269
       game-tiles@2x_5: 2073673198
+      game-tiles@2x_8: -1054658427
       game-tiles@2x_2: -194179336
       game-tiles@2x_1: 1664557977
+      game-tiles@2x_7: -395548532
       game-tiles@2x_3: 105441279
       game-tiles@2x_6: -1540271251
       game-tiles@2x_0: 587994131
